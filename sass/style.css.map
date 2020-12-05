@@ -1,0 +1,12 @@
+{
+    "version": 3,
+    "mappings": "AAAA,OAAO,CAAC,6GAAI;AEEZ,AAAA,MAAM;AACN,MAAM,AAAA,MAAM,CAAC;EACT,OAAO,EAAE,eAAe;EACxB,UAAU,EAAE,eAAe;CAC9B;;ACLD,AAAA,WAAW,CAAC;EACR,WAAW,EFDF,cAAc,EAAE,OAAO;CEEnC;;AAED,AAAA,WAAW,CAAC;EACR,WAAW,EFJF,OAAO,EAAE,UAAU;CEK/B;;AAED,AAAA,aAAa,CAAC;EACV,WAAW,EFPA,iBAAiB,EAAE,OAAO;CEQxC;;AAED,AAAA,aAAa,CAAC;EACV,SAAS,EAAE,IAAI;CAClB;;AAED,AAAA,aAAa,CAAC;EACV,SAAS,EAAE,IAAI;CAClB;;AAED,AAAA,aAAa,CAAC;EACV,SAAS,EAAE,IAAI;CAClB;;AAED,AAAA,aAAa,CAAC;EACV,SAAS,EAAE,IAAI;CAClB",
+    "sources": [
+        "style.scss",
+        "include/variables.scss",
+        "include/golobal.scss",
+        "include/utility.scss"
+    ],
+    "names": [],
+    "file": "style.css"
+}

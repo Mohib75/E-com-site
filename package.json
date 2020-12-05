@@ -1,0 +1,20 @@
+{
+  "name": "e-com-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "sass ./sass/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mohib75/E-com-site.git"
+  },
+  "author": "Ifthakher Rahman Mohib",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mohib75/E-com-site/issues"
+  },
+  "homepage": "https://github.com/Mohib75/E-com-site#readme"
+}
