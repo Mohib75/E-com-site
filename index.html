@@ -26,6 +26,7 @@
             integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
             crossorigin="anonymous"
         />
+
         <!-- Font awesome icon CDN -->
         <link
             rel="stylesheet"
@@ -33,8 +34,19 @@
             integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
             crossorigin="anonymous"
         />
+
         <!-- Css link-->
         <link rel="stylesheet" href="./sass/style.css" />
+
+        <!-- Owl Carousel Javascript-->
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+            integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+            crossorigin="anonymous"
+        ></script>
+
+        <!-- Custom Javascript-->
+        <script src="main.js"></script>
     </head>
     <body>
         <!-- Start Header-->
@@ -48,7 +60,7 @@
             </div>
 
             <!-- Primary Navigation-->
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <nav class="navbar navbar-expand-lg navbar-dark color-second-bg">
                 <a class="navbar-brand" href="#">Fulls E-com</a>
                 <button
                     class="navbar-toggler"
@@ -62,7 +74,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
+                    <ul class="navbar-nav m-auto font-sansita">
                         <li class="nav-item active">
                             <a class="nav-link" href="#">On Sale <span class="sr-only">(current)</span></a>
                         </li>
@@ -70,18 +82,26 @@
                             <a class="nav-link" href="#">Category</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Product</a>
+                            <a class="nav-link" href="#">Product <i class="fas fa-chevron-down"></i></a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Blog</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Category</a>
+                            <a class="nav-link" href="#">Category <i class="fas fa-chevron-down"></i></a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Coming Soon</a>
                         </li>
                     </ul>
+                    <form action="#" class="font-size-14 font-rubik">
+                        <a href="#" class="py-2 rounded-pill color-primary-bg">
+                            <span class="font-size-16 px-2 text-white">
+                                <i class="fas fa-shopping-cart"></i>
+                            </span>
+                            <span class="px-3 py-2 rounded-pill text-dark bg-light">0</span>
+                        </a>
+                    </form>
                 </div>
             </nav>
             <!-- Primary Navigation End-->
@@ -89,7 +109,25 @@
         <!-- End Header-->
 
         <!-- Start main site-->
-        <main></main>
+        <main id="main-site">
+            <!-- Owl Carousel -->
+            <section id="banner-area">
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <img src="./assets/Banner1.png" alt="Banner1" />
+                    </div>
+
+                    <div class="item">
+                        <img src="./assets/Banner2.png" alt="Banner2" />
+                    </div>
+
+                    <div class="item">
+                        <img src="./assets/Banner1.png" alt="Banner3" />
+                    </div>
+                </div>
+            </section>
+            <!-- Owl Carousel -->
+        </main>
         <!-- End main site-->
 
         <!-- Start footer-->
